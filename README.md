@@ -8,7 +8,7 @@ For Recruiters/Employers: This represents my personal solution and coding style 
 
 For Current Students: Please do not copy this code. Plagiarism is taken seriously at UQ. This repository is for archival and portfolio purposes only.
 
-## 📋 Features
+## Features
 
 * **Multi-Base Support:** Handles input and output for any base between 2 and 36 (Binary, Octal, Decimal, Hex, etc.).
 * **Expression Evaluation:** detailed arithmetic parsing (Addition, Subtraction, Multiplication, Division).
@@ -17,27 +17,20 @@ For Current Students: Please do not copy this code. Plagiarism is taken seriousl
 * **History Tracking:** Keep track of previous calculations within the session.
 * **Dynamic Configuration:** Change input/output bases on the fly using internal commands.
 
-## 🛠 Installation & Build
-
-### Prerequisites
-* GCC Compiler
-* Make
+## Installation & Build
 
 ### Compilation
 The project includes a `Makefile` for easy compilation.
 
 ```bash
-make
+gcc -Wall -Wextra -pedantic -std=gnu99 uqbasejump.c -o uqbasejump -lm
 ```
 🚀 Usage
 You can run the program in interactive mode or file mode.
 ```bash
 Usage: ./uqbasejump [--obases 2..36] [--inputbase 2..36] [--file string]
 ```
-Compilation command:
-```bash
-gcc -Wall -Wextra -pedantic -std=gnu99 uqbasejump.c -o uqbasejump -lm
-```
+
 👤 Author
 Anh Tai Pham
 
