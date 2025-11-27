@@ -1,7 +1,7 @@
 # Multi-Base Calculator (uqbasejump)
 
 A command-line arbitrary base calculator written in C. This tool allows users to input mathematical expressions in bases ranging from 2 (Binary) to 36, evaluates them, and displays the result in multiple target bases simultaneously.
-# ⚠️ Academic Integrity Disclaimer
+## ⚠️ Academic Integrity Disclaimer
 This project was created as part of the CSSE2310 course at The University of Queensland.
 
 For Recruiters/Employers: This represents my personal solution and coding style for the assignment.
@@ -34,5 +34,13 @@ You can run the program in interactive mode or file mode.
 ```bash
 Usage: ./uqbasejump [--obases 2..36] [--inputbase 2..36] [--file string]
 ```
+Compilation command:
+```bash
+gcc -Wall -Wextra -pedantic -std=gnu99 uqbasejump.c -o uqbasejump -lm
+```
+👤 Author
+Anh Tai Pham
 
+## Acknowledgement
+This README was written with the support of Gemini 3.0
 
