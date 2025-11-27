@@ -23,3 +23,8 @@ The project includes a `Makefile` for easy compilation.
 
 ```bash
 make
+🚀 Usage
+You can run the program in interactive mode or file mode.
+
+1. Interactive Mode
+Run without arguments to start the interactive shell:
