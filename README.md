@@ -32,7 +32,7 @@ Usage: ./uqbasejump [--obases 2..36] [--inputbase 2..36] [--file string]
 ```
 
 👤 Author
-Anh Tai Pham
+* Anh Tai Pham
 
 ## Acknowledgement
 This README was written with the support of Gemini 3.0
